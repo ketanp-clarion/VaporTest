@@ -1,8 +1,8 @@
-import FluentSQLite
+import FluentMySQL
 import Vapor
 
 /// A single entry of a Employee list.
-final class Employee: SQLiteModel {
+final class Employee: MySQLModel {
     /// The unique identifier for this `Employee`.
     var id: Int?
     
